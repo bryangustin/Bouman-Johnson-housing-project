@@ -32,8 +32,7 @@ document.querySelector("#submit").addEventListener("click", (event) => {
 	    	"area": new Number(area),
 	    	"rooms-number": new Number(room_number),
 	    	"zip-code": new Number(zip_code)
-	};
-console.log(data)		
+	};		
 fetch(url,{
     method: "POST",
     headers: { "Content-Type": "application/json" },
