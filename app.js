@@ -19,6 +19,9 @@ fetch(proxyurl)
 			document.getElementById("zip").insertAdjacentHTML("beforeend", zip);
 		});
 	});
+document.querySelector("#filters").addEventListener("click", (event) => {
+	alert("Sorry Diogo or somoene else! I haven't been configured yet");
+})
 
 document.querySelector("#submit").addEventListener("click", (event) => {
 	event.preventDefault();
