@@ -20,7 +20,7 @@ fetch(proxyurl)
 		});
 	});
 document.querySelector("#filters").addEventListener("click", (event) => {
-	alert("Sorry Diogo or somoene else! I haven't been configured yet");
+	alert("Sorry Diogo or whoever you may be! I have not yet been configured... <3");
 })
 
 document.querySelector("#submit").addEventListener("click", (event) => {
